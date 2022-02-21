@@ -1,0 +1,108 @@
+.page {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(173 106 128 / 12%);
+  width: 100%;
+  height: 100%;
+}
+.headinvoice {
+  width: 100%;
+  font-size: 3rem;
+  text-align: center;
+  background: black;
+  color: white;
+}
+#billform {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 3rem;
+}
+
+#headerinvoice {
+  display: flex;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  font-size: 2rem;
+  margin-top: 4rem;
+  justify-content: space-between;
+}
+#headerinvoice input {
+  border-radius: 20px;
+  margin-left: 1rem;
+  font-size: 1.5rem;
+  width: 51%;
+}
+#headerinvoice2 {
+  display: flex;
+  font-size: 2rem;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  margin-top: 1.2rem;
+  justify-content: space-between;
+}
+#headerinvoice2 input {
+  border-radius: 20px;
+  margin-left: 2rem;
+  font-size: 1.5rem;
+  width: 51%;
+}
+#middle {
+  display: flex;
+  font-size: 1.6rem;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  margin-top: 1.2rem;
+  justify-content: space-between;
+}
+#middle input {
+  border-radius: 12px;
+  margin-left: 2rem;
+  font-size: 1.2rem;
+  width: 50%;
+}
+#down {
+  display: flex;
+  font-size: 1.5rem;
+  margin-top: 4rem;
+  margin-left: 1.5rem;
+  text-align: center;
+  justify-content: space-around;
+  margin-right: 1.5rem;
+  background: black;
+  color: white;
+  height: 3rem;
+}
+#down div {
+  width: 15%;
+}
+#down2 input {
+  border-radius: 15px;
+  width: 15%;
+  height: 3rem;
+  margin: 0.1rem;
+}
+
+#down2 {
+  display: flex;
+  margin-top: 2rem;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  font-size: 1.5rem;
+  justify-content: space-around;
+}
+#downbtn {
+  text-align: right;
+}
+#downbtn button {
+  margin-top: 3rem;
+  margin-right: 4rem;
+  font-size: 2rem;
+  border-radius: 15px;
+}
+#total {
+  text-align: left;
+  font-size: 3rem;
+  margin-top: 2.5rem;
+  margin-left: 1.5rem;
+}

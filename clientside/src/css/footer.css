@@ -1,0 +1,40 @@
+.footer {
+  width: 100%;
+  height: 100%;
+}
+.ul {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.ul ul {
+  display: flex;
+}
+.ul li {
+  width: 15%;
+  margin: 0 auto;
+  text-decoration: none;
+  list-style: none;
+  font-size: 1.5rem;
+}
+.ul h1 {
+  border: 2px solid black;
+  border-radius: 20px;
+  width: 22%;
+  margin: 0 auto;
+}
+.addbillbtn {
+  text-align: right;
+  margin-right: 7rem;
+  margin-top: 1rem;
+}
+.last {
+  display: flex;
+  display: flex;
+  width: 50%;
+  margin: 0 auto;
+  justify-content: space-around;
+}
+.ul span {
+  margin: 0.2rem;
+}

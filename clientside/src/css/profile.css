@@ -1,0 +1,219 @@
+@import url("https://fonts.googleapis.com/css?family=Krub:400,700");
+
+.card {
+  position: absolute;
+  width: 21rem;
+  height: 44rem;
+  border-radius: 10px;
+  background: #ffc0cb6b;
+  /* overflow: hidden; */
+}
+.left {
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+.right {
+  margin-left: 2rem;
+}
+.foot {
+  margin-top: 4rem;
+}
+.ds-top {
+  position: absolute;
+  width: 21rem;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  height: 5rem;
+  background: pink;
+  animation: dsTop 1.5s;
+}
+.avatar-holder {
+  position: absolute;
+  top: 2.7rem;
+  width: 30%;
+  height: 18%;
+  border-radius: 50%;
+  margin-left: 34%;
+  box-shadow: 0 0 0 5px #151515, inset 0 0 0 5px #000000,
+    inset 0 0 0 5px #000000, inset 0 0 0 5px #000000, inset 0 0 0 5px #000000;
+
+  background: white;
+  overflow: hidden;
+  animation: mvTop 1.5s;
+}
+.img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.name {
+  position: absolute;
+  width: 100%;
+  height: 12%;
+  margin-top: 55%;
+  text-align: center;
+  animation: fadeIn 2s ease-in;
+}
+.name a {
+  color: #b11a45d1;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1.6rem;
+}
+.name a:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+h4 {
+  color: #b11a45d1;
+  width: 100%;
+  font-size: 1.2rem;
+  margin-top: 1rem;
+}
+
+.button {
+  position: absolute;
+  margin-top: 17rem;
+  margin-left: 5rem;
+  width: 58%;
+  height: 7%;
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 10px;
+  animation: fadeIn 2s ease-in;
+}
+.button a {
+  position: absolute;
+  padding: 1rem 1rem;
+  color: #b11a45d1;
+  margin-top: 0.1rem;
+  margin-left: 0rem;
+  letter-spacing: 0.2rem;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: all 1s;
+}
+.button a:hover {
+  color: black;
+  background: crimson;
+}
+.details {
+  width: 100%;
+  /* position: absolute; */
+  color: #b11a45d1;
+  margin-top: 5rem;
+  margin-left: 1.2rem;
+}
+
+.ds-info {
+  width: 100%;
+  height: 1.5rem;
+  margin-top: 19rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+.pens,
+.projects,
+.posts {
+  text-align: center;
+  color: #b11a45d1;
+  animation: fadeInMove 2s;
+  animation-fill-mode: forwards;
+}
+.ds-info h6 {
+  text-transform: uppercase;
+  color: crimson;
+  font-size: 0.9rem;
+  margin-bottom: -0.5rem;
+}
+.ds-info p {
+  font-size: 1rem;
+}
+
+.ds:nth-of-type(2) {
+  animation-delay: 0.5s;
+}
+.ds:nth-of-type(1) {
+  animation-delay: 1s;
+}
+
+@keyframes fadeInMove {
+  0% {
+    opacity: 0;
+    left: -300px;
+  }
+  100% {
+    opacity: 1;
+    left: 0;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes htmlSkill {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 95%;
+  }
+}
+
+@keyframes cssSkill {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 90%;
+  }
+}
+
+@keyframes jsSkill {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 75%;
+  }
+}
+
+@keyframes mvBottom {
+  0% {
+    bottom: -150px;
+  }
+  100% {
+    bottom: 10px;
+  }
+}
+
+@keyframes mvTop {
+  0% {
+    top: -150px;
+  }
+  100% {
+    top: 40px;
+  }
+}
+
+@keyframes dsTop {
+  0% {
+    top: -150px;
+  }
+  100% {
+    top: 0;
+  }
+}
+
+.following {
+  color: white;
+  background: crimson;
+}
