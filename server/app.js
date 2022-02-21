@@ -6,8 +6,7 @@ import "./connect.js";
 import userRouter from "./controller/user/index.js";
 import billRouter from "./controller/bill/index.js";
 app.use(express.json());
-
-// // app.use(express.static("build"));
+app.use(express.static("build"));
 app.use("/api/users", userRouter);
 app.use("/api/bills", billRouter);
 app.get("/", (req, res) => {
